@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* virgil font */
+@import 'webfontkit/stylesheet.css';
+
+* {
+  font-family: 'virgil_3_yoffregular';
+}
+
+body {
+  // background-color: #f5f5f5;
+  background-color: rgb(251 207 232);
+}

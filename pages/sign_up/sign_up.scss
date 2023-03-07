@@ -1,0 +1,47 @@
+.sign-up {
+  text-align: center;
+  .back-link {
+    color: black;
+    transition: 0.5s;
+    &:hover {
+      color: #9a9b98;
+    }
+  }
+  form {
+    input {
+      appearance: none;
+      border-color: #bae6fd !important;
+
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 500ms;
+      // background: #3e7ab6;
+      &:focus {
+        border-color: #b5f670 !important;
+        box-shadow: 5px 10px 10px #888888;
+      }
+      &:hover {
+        background: #f1f5f9 !important;
+      }
+    }
+    select {
+      border: 1px #bae6fd solid;
+      &:focus {
+        border-color: #b5f670 !important;
+        box-shadow: 5px 10px 10px #888888;
+      }
+      &:hover {
+        background: #f1f5f9 !important;
+      }
+    }
+    .alert-error {
+      width: 100%;
+      color: red;
+      margin-bottom: 10px;
+    }
+    .alert-message {
+      width: 100%;
+      color: green;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.title {
+  padding: 0;
+  a {
+    text-decoration: none;
+    background-color: rgb(255, 158, 210);
+    &:hover {
+      background-color: rgb(255, 168, 214);
+    }
+  }
+}
