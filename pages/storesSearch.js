@@ -54,7 +54,7 @@
 //   );
 // }
 
-import clientPromise from '../../../lib/mongodb';
+import clientPromise from '../lib/mongodb';
 
 export default function StoresSearch({ names }) {
   function log(names) {
@@ -71,7 +71,7 @@ export default function StoresSearch({ names }) {
       {log} */}
       <ul>
         {names.map((store) => (
-          <li>
+          <li key={store.name}>
             <p>{store.name}</p>
           </li>
         ))}

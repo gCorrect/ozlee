@@ -208,7 +208,7 @@ export default function AddUser() {
               <input
                 type="text"
                 className="city appearance-none block w-full bg-gray-200  italic border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                id="grid-city"
+                id="grid-address"
                 placeholder="π.χ. Περιστέρι"
                 onChange={(e) => setAddress(e.target.value)}
                 value={address}
